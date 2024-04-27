@@ -1,0 +1,304 @@
+@media (max-width: 768px) {
+    .main {
+        padding: 50px 0;
+    }
+
+    .main .container .first .left {
+        align-items: flex-start;
+        width: 20%;
+    }
+
+    .main .container .first .left p {
+        font-size: 14px;
+    }
+
+    .main .container .first .right {
+        width: 45%;
+    }
+
+    .main .container .right h1 {
+        width: 100%;
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+    .main .container .row .second {
+        padding: 30px 0;
+    }
+
+    .main .container .row .second .content-section .top {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        gap: 30px;
+        font-family: "Vollkorn", serif;
+    }
+
+    .main .container .row .second .content-section .top p {
+        font-size: 16px;
+        font-weight: 100;
+        width: 75%;
+        letter-spacing: 1px;
+    }
+
+    .main .container .row .second .content-section a {
+        text-align: left;
+        margin-left: 135px;
+    }
+
+    .dream .image-content img {
+        height: 40vh;
+        padding: 10px;
+    }
+
+    .dream .image-content .content .first {
+        padding: 40px 0 0 40px;
+    }
+
+    .dream .image-content .content .second {
+        width: 40%;
+    }
+
+    .dream .image-content .content .second h1 {
+        font-size: 40px;
+    }
+
+    .pacific {
+        padding: 50px 0;
+    }
+
+    .pacific .top-content {
+        width: 67%;
+    }
+
+    .pacific .top-content p {
+        width: 85%;
+    }
+
+    .path .top-content {
+        width: 75%;
+    }
+
+    .advanture .image-content img {
+        height: 73vh;
+        padding: 20px;
+    }
+
+    .advanture .image-content .content .second {
+        width: 55%;
+    }
+
+    .themes .container .row .theme img {
+        object-fit: cover;
+        height: 111px;
+        width: 170px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 412px) {
+    .hero .content {
+        /* position: absolute; */
+        /* transform: translate(5%, 40%); */
+        width: 90%;
+        color: #fff;
+        z-index: 11;
+        padding-bottom: 0;
+        font-family: "Vollkorn", serif;
+        border-bottom: none;
+    }
+
+    .hero .content .texes {
+        gap: 10px;
+    }
+
+    .hero .content .top {
+        width: 95%;
+    }
+
+    .hero .content .top h1 {
+        font-size: 50px;
+    }
+
+    .hero .content .bottom-slide-content {
+        /* flex-wrap: wrap; */
+        display: block;
+    }
+
+    .hero .content .bottom-slide-content p {
+        font-size: 14px;
+        /* line-height: 24px; */
+        width: 80%;
+        height: 100%;
+        margin-left: auto;
+        margin-top: 200px;
+    }
+
+    .hero .content .bottom-slide-content button {
+        padding: 12px 60px;
+        font-size: 12px;
+    }
+
+
+    .main .container .first {
+        /* background-color: yellow; */
+        display: block;
+        /* width: 100%; */
+        /* justify-content: space-between;
+        align-items: center; */
+    }
+
+    .main .container .first .left {
+        width: 100%;
+    }
+
+    .main .container .first .right {
+        width: 100%;
+    }
+
+    .main .container .right h1 {
+        text-align: start;
+        line-height: 50px;
+        font-size: 55px;
+    }
+
+    .main .container .row .second {
+        display: block;
+    }
+
+    .main .container .row .second .image-section {
+        width: 100%;
+        padding: 20px;
+        /* background-color: red; */
+    }
+
+    .main .container .row .second .image-section img {
+        height: 51.13095238vw;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 45vw;
+    }
+
+    .main .container .row .second .content-section {
+        justify-content: flex-start;
+        padding-right: 30px;
+        padding-left: -20px;
+        gap: 10px;
+        text-align: flex-start;
+    }
+
+    .main .container .row .second .content-section a {
+        /* padding:  10px 20px; */
+        text-align: flex-start;
+    }
+
+    .main .container .row .second .content-section .top {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        font-family: "Vollkorn", serif;
+    }
+
+    .main .container .row .second .content-section .top p {
+        font-size: 16px;
+        /* font-weight: 100; */
+        width: 90%;
+        /* letter-spacing: 1px; */
+    }
+
+    .dream .image-content .content .first p {
+        width: 100%;
+    }
+
+    .dream .image-content img {
+        height: 97vh;
+    }
+
+    .dream .image-content .content .second {
+        width: 100%;
+    }
+
+    .pacific .top-content {
+        width: 100%;
+    }
+
+    .path .top-content {
+        width: 90%;
+    }
+
+    .path .top-content p,
+    .path .container-fluid .row .subtitle p {
+        margin: 7% 0;
+    }
+
+    .path .container-fluid .row .title h1 {
+        font-size: 33px;
+        font-family: "Vollkorn", serif;
+        font-style: normal;
+        font-variant: normal;
+    }
+
+    .advanture .image-content .content .first h1 {
+        width: 80%;
+        font-size: 45px;
+    }
+    .advanture .image-content .content .second {
+        width: 90%;
+    }
+    .themes .container .row{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        background-color: #D9DCCC;
+    }
+
+    .themes .container .row .theme img{
+        object-fit: cover;
+        height: 111px;
+        width: 130px;
+        cursor: pointer;
+    }
+
+
+    .themes .container .row .theme .bottom-img{
+        display: flex;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    footer .footer-link ul{
+        display: block;
+        /* align-items: center;
+        justify-content: space-between; */
+    }
+
+    footer .footer-link ul li{
+        list-style: none;
+        margin: 20px 0;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+
+}
